@@ -1,0 +1,58 @@
+.mat-toolbar {
+  
+  background-color: blueviolet;
+  color: white;
+  font-weight: 500;
+  .textNavbar {
+    margin-left: 10px;
+    margin-bottom: 0px;
+  }
+  .iconNavbar {
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+
+}
+span{
+    display: flex;
+    align-items: center;
+  }
+#formularioHome {
+
+  padding: 20px;
+  .cedula {
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type="number"] {
+      -moz-appearance: textfield;
+    }
+  }
+
+ 
+}.montoBanco{
+  font-size: 20px;
+ }
+mat-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+table {
+  width: 100%;
+}
+.checkPago{
+ color: lightgreen !important;
+}
+button{
+  width: 100px;
+}
+.columnTable{
+  font-size: 20px;
+  font-weight: 500;
+  color: darkviolet;
+}

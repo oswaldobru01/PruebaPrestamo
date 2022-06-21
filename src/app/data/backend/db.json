@@ -1,0 +1,45 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Davivienda",
+      "email": "davivienda",
+      "cedula": 201392012,
+      "id": 1
+    },
+    {
+      "nombre": "Bancolombia",
+      "email": "oiqo",
+      "cedula": 910930,
+      "id": 2
+    },
+    {
+      "nombre": "Wilber",
+      "email": "w@sd.com",
+      "cedula": 1092012,
+      "id": 3
+    }
+  ],
+  "prestamos": [
+    {
+      "cedula": 201392012,
+      "fechaPagar": "",
+      "id": 1,
+      "pago": true,
+      "valorSolicitado": 100000
+    },
+    {
+      "cedula": 910930,
+      "fechaPagar": "",
+      "id": 2,
+      "pago": true,
+      "valorSolicitado": 100000
+    },
+    {
+      "cedula": 1092012,
+      "fechaPagar": "2022-06-21T05:00:00.000Z",
+      "id": 3,
+      "pago": false,
+      "valorSolicitado": 100000
+    }
+  ]
+}

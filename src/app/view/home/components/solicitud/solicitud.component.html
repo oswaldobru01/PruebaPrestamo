@@ -1,0 +1,20 @@
+<form [formGroup]="formularioSolicitud" action="" id="formularioMonto" >
+  <div fxLayout="row wrap" fxLayoutGap="30" fxFlex>
+    <div>
+      <mat-form-field appearance="outline" class="monto-solicitado">
+        <mat-label>Monto a solicitar</mat-label>
+        <input formControlName="valorSolicitado" type="number" matInput placeholder="Monto" />
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field appearance="outline">
+        <mat-label>Fecha pagar</mat-label>
+        <input formControlName="fechaPagar" matInput [matDatepicker]="picker" />
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+    </div>
+  </div>  
+  
+  </form>
+  
