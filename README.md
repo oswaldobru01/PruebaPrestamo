@@ -1,27 +1,20 @@
 # PruebaPrestamo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+Buenas adjunto la prueba tecnica, muchas gracias por hacerme parte de la participacion.
+La aplicacion cuenta con un monto global del banco el cual actualmente es de $2.000.000, el cual cada vez que se va agregando un cliente el valor monto total del banco va a disminuir por tal razon en el listado del banco puedes pagar dicho prestamo.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Como iniciar el proyecto
 
-## Code scaffolding
+ 1. Principalmente debemos clonar el repositorio la URL la arroja almomento de darle CLONAR la parte superior.
+ 2. Despues de haber descargado el proyecto abrimos una consola de windows con la direccion de la carpeta.
+ 3. Ya terminado la consola con la redireccion colocamos el linea de comando (npm install).
+ 4. Despues de instalar las dependecias del proyectos, debemos arracar el proyecto BACKEND de la siguiente forma:
+    
+         - Consola correr el siguiente linea de comando (npm run backend)
+ 5.  Luego iniciamos la parte FRONTEND de la siguiente forma
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+			-  Consola correr el siguiente linea de comando (ng serve --o)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Y listo.
+    
